@@ -20,6 +20,9 @@ public class Main {
         toDoList.completeTask("Помыть пол");
 
         System.out.println(toDoList);
+        
+        toDoList.deleteTask("Помыть пол");
+        System.out.println(toDoList);
 
         toDoList.printCompletedTasks();
         toDoList.printNotCompletedTasks();
