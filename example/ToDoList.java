@@ -28,7 +28,7 @@ public class ToDoList {
     public void printNotCompletedTasks() {
         for (int i = 0; i < k; i++) {
             if (!list[i].isCompleted())
-                System.out.println("(" + (i + 1) + ") " + "[x] " + "«" + list[i].getName() + "»");
+                System.out.println("(" + (i + 1) + ") " + "[] " + "«" + list[i].getName() + "»");
         }
     }
 
